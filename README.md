@@ -20,6 +20,7 @@ automatically. It provides:
 -   Agent performance insights\
 -   Conversation summaries & topics
 
+
 Its scalable architecture makes it ideal for startups, SMEs, and
 enterprise‑level teams processing thousands of calls daily.
 
@@ -28,40 +29,33 @@ enterprise‑level teams processing thousands of calls daily.
 ## 📂 Core Features
 
 ### **1. Audio Upload & Processing**
-
 -   Upload single audio files (`.mp3`, `.wav`, `.flac`)
 -   Upload ZIP files containing multiple audio recordings
 -   Automatic audio extraction and preprocessing
 
 ### **2. AI‑Powered Transcription**
-
 -   Local Whisper model for accurate transcription
 -   AI‑enhanced transcript cleanup for readability
 
 ### **3. Speaker Diarization**
-
 -   Differentiates between agent and customer
 -   Produces a structured conversational flow
 
 ### **4. Sentiment, Emotion & Reasoning**
-
 -   Full sentiment breakdown
 -   Emotion classification with reasoning
 -   Agent vs customer sentiment comparison
 
 ### **5. Conversation Summary & Categorization**
-
 -   Summaries of customer issues
 -   Topic detection
 -   Categorization and intent grouping
 
 ### **6. Customer Satisfaction & Agent Action Insights**
-
 -   Automatically determines customer satisfaction
 -   Suggests recommended actions for agents
 
 ### **7. Database Integration**
-
 -   Stores all analysis results using SQLAlchemy ORM
 -   Fetch, review, and delete past analyses
 -   Stores dynamic prompt parameters for configurable behavior
@@ -188,7 +182,6 @@ uvicorn main:app --reload
 ------------------------------------------------------------------------
 
 ## 📈 Scalability
-
 The entire system is built with horizontal scalability in mind: -
 Multiple workers can process calls in parallel - Databases handle large
 datasets efficiently - Works on local servers or cloud platforms
